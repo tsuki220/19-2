@@ -8,7 +8,12 @@
 <script src="ex6-5.js"></script>
 <script src="ex06-7.js"></script>
 <script src="ex06-8.js"></script>
+<script src="ex07-1.js"></script>
+<script src="ex07-3.js"></script>
+<script src="ex07-5.js"></script>
+<script src="ex07-8.js"></script>
 </head>
+
 <body>
 <input type="button" value="ここをクリック" onclick="sayhello();">
 <h1>変数の練習65</h1>
@@ -41,5 +46,18 @@
 <br>
 <input type="text" name="moji" size="30" value="">
 </form>
+
+<h1>テキスト入力の練習</h1>
+<input type="button"value="あいさつ" onclick="sayhello71();">
+<p>誰?<input type="text"id="who"></p>
+<h1>足し算</h1>
+<p><input type="text"id="input1">+<input type="text"id="input2">
+<input type="button"value="計算" onclick="add();"></p>
+<h1>なぞなぞ</h1>
+<p>目を閉じてないと見られないものはなーに?</p>
+<p>答(漢字1文字で):<input type="text"id="answer">
+<input type="button"value="解答"onclick="nazo();"></p>
+<input type="text" id="answer">
+<input type="button" value="解答" onclick="nazo();">
 </body>
 </html>
