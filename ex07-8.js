@@ -1,6 +1,6 @@
 function nazo(){
-    if (document.getElementByld(`answer`).value = `夢`){
-        alert(`あたり!`);
+    if (document.getElementByld('answer').value = '夢'){
+        alert('あたり!');
     }else{
-        alert(`はずれ!`);
+        alert('はずれ!');
     }

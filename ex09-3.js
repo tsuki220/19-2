@@ -1,4 +1,4 @@
 function change(){
-    document.getElementByld(`picture`).setAttribute
-    (`width`,`800`);
+    document.getElementByld('picture').setAttribute
+    ('width','800');
 }
